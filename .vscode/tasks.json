@@ -10,6 +10,22 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "Upload",
+      "type": "shell",
+      "command": "STM32_Programmer_CLI",
+      "args": [
+        "--connect",
+        "port=swd",
+        "--download",
+        "${command:cmake.launchTargetPath}",
+        "-hardRst"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
     }
   ]
 }

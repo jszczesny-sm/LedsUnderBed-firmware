@@ -75,6 +75,7 @@ target_sources(
     "Core\\Src\\dma.c"
     "Core\\Src\\gpio.c"
     "Core\\Src\\main.c"
+    "Core\\Src\\mainApp\\app.c"
     "Core\\Src\\stm32f4xx_hal_msp.c"
     "Core\\Src\\stm32f4xx_it.c"
     "Core\\Src\\syscalls.c"
