@@ -1,0 +1,9 @@
+*.html
+*.chm
+_htmresc
+
+build/
+
+*.xml
+
+*.log
